@@ -8,3 +8,6 @@ requests
 Pillow
 beautifulsoup4
 yt-dlp
+pyTelegramBotAPI
+psycopg2-binary
+flask
