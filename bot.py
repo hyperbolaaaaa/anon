@@ -7,7 +7,7 @@ from telebot.types import ReplyKeyboardMarkup, KeyboardButton
 
 TOKEN = "8647557552:AAEYbCBHPD6gdt4Zy2wlJzQSiTw9oYGdelY"
 ADMIN_ID = 8648483733  # put your telegram id here
-DATABASE_URL = os.getenv("DATABASE_URL")
+DATABASE_URL = "postgresql://me_apn7_user:vTc6yRCXN6T5HJu4y0fMOL0M4lz1xUky@dpg-d758rfua2pns73b2aigg-a/me_apn7"
 
 bot = telebot.TeleBot(TOKEN)
 
